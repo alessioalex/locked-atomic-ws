@@ -1,0 +1,25 @@
+{
+  "name": "locked-atomic-ws",
+  "version": "0.1.0",
+  "description": "A combination of fs-write-stream-atomic and node-proper-lockfile to ensure that no more than one (atomic) write stream can be used at a time for a certain file.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "destroy": "^1.0.3",
+    "once": "^1.3.2",
+    "proper-lockfile": "^1.0.0",
+    "fs-write-stream-atomic": "git://github.com/alessioalex/fs-write-stream-atomic.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/locked-atomic-ws.git"
+  },
+  "license": "MIT"
+}
